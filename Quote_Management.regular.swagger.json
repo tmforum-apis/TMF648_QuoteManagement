@@ -3,12 +3,8 @@
   "swagger": "2.0",
   "info": {
     "description": "The customer Quote API provides a standardized mechanism for placing a customer quote with all of the necessary quote parameters. The API consists of a simple set of operations that interact with CRM/Order Negotiation systems in a consistent manner. A customer quote is created based on a product offer that is defined in a catalog. The quote identifies the product or set of products that are available to a customer, and includes characteristics such as pricing (eventually special pricing for the customer described in the quote), product options and agreement.\n\nSupplier Quote is not managed in the scope of this document.\n\nQuote API performs the following operations on customer quote:\n- Retrieval of a customer quote or a collection of customer quote depending on filter criteria\n- Partial update of a customer quote (including updating rules)\n- Creation of a customer quote (including versioning, default values and creation rules)\n- Deletion of customer quote (for administration purposes)\n- Notification of events on quote\n\t- Quote creation\n\t- Quote removal\n\t- Quote state change\n\t- Quote value change used to notify that any data in an quote has just changed\n\t- Quote information required used to notify that some data in the quote need to be filled / are\n\tmissing\n\t- Quote is a pending state waiting approval (for the whole quote or only for quote item)\n\t- quote is accepted by the customer but there is a least one agreement to be signed\n\n[More](https://projects.tmforum.org/wiki/download/attachments/40177889/TMF648_QUOTE_API_REST_Specification_R16.0.1.pdf?version=1&modificationDate=1478611794000&api=v2)",
-    "version": "1.0.2_inProgress",
-    "title": "API Quote",
-    "x-logo": {
-      "url": "/redoc/logo.png",
-      "backgroundColor": "#FFFFFF"
-    }
+    "version": "2.0.0",
+    "title": "API Quote"
   },
   
   "host": "serverRoot",
